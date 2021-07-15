@@ -1,0 +1,113 @@
+{
+  
+    
+        "post0": {
+            "title": "Kriptovaliutų naujienos",
+            "content": "Calm Before the Storm? Blockchain Analytics Firm Glassnode Weighs In on State of Bitcoin. Popular blockchain analytics firm Glassnode says crypto investors may be looking at the &#8220;calm before the storm&#8221; for Bitcoin. In their new weekly report, Glassnode says the entire Bitcoin ecosystem has become quiet, potentially hinting that a big move is on the horizon. &#8220;It has been an impressively quiet week in the Bitcoin market as [&#8230;]The post Calm Before the Storm? Blockchain Analytics Firm Glassnode Weighs In on State of Bitcoin appeared first on The Daily Hodl. ... | Skaityti daugiau | . Sotheby’s accepts anonymous $12.3 million crypto payment for rare 101 carat diamond. TL;DR Breakdown • Sotheby&amp;#8217;s completes the most significant crypto payment among diamond auctions.• Auction agencies accept Bitcoin as a means of payment and even hold events with NFT. A mystery diamond lover bought a rare 101 carat diamond valued at $12.3 million. This transaction was auctioned at a Sotheby&#8217;s sponsored event in Europe a few [&#8230;] ... | Skaityti daugiau | . Price analysis 7/14: BTC, ETH, BNB, ADA, XRP, DOGE, DOT, UNI, BCH, LTC. Bitcoin and most major altcoins are bouncing off strong support levels, indicating possible accumulation by the bulls. ... | Skaityti daugiau | . Cardano, TRON, AAVE Price Analysis: 14 July. As Bitcoin’s price tanked today, all major altcoins were trading in the red too. As observed with the altcoins, many of them trailed below their crucial support levels awaiting a retracement. ADA’s market cap declined by 4.03%, TRX registered an 8.9% decline in market price over the last week, and AAVE, despite a downtrend, observed [&#8230;] ... | Skaityti daugiau | . Ethereum Whales Go On Buying Spree, Top 10 Addresses Now Own 20% Of All ETH. Ethereum price of Ethereum has recently fallen below the $2,000 mark in recent days. While some people may see this as something to be worried about, others see it as an opportunity to buy as many coins as possible. More specifically, whales see this as a big buying opportunity for them and they&#8217;re using this [&#8230;] ... | Skaityti daugiau | . Cardano (ADA) retains its spot as the most ‘staked’ crypto. Data from proof-of-stake research platform Staking Rewards shows Cardano is the most staked chain, by value, in the cryptocurrency space. The post Cardano (ADA) retains its spot as the most &#8216;staked&#8217; crypto appeared first on CryptoSlate. ... | Skaityti daugiau | . Mixed Messages As Bank of England Deputy Governor Says Crypto Not A Threat. The Bank of England (BoE) Deputy Governor Jon Cunliffe dismissed the notion that crypto poses a threat to macro-financial stability. Meanwhile, recent weeks have seen global regulators come down hard on the crypto sector, with Binance feeling the brunt of the force. Not forgetting the actions of Chinese authorities, which have drastically altered the landscape [&#8230;] ... | Skaityti daugiau | .",
+            "url": "https://dominykas-tautkus.github.io/corr-app/2021/07/14/Market-News.html",
+            "relUrl": "/2021/07/14/Market-News.html",
+            "date": " • Jul 14, 2021"
+        }
+        
+    
+  
+    
+        ,"post1": {
+            "title": "Kriptovaliutos ir rinkos",
+            "content": "An Exception was encountered at &#39;In [7]&#39;. . Kriptovaliut&#371; su rinkomis koreliacijos matrica . Normalizuotos kriptovaliut&#371; su rinkomis kainos . (Pasikrovimas gali užtrukti kelias sek.) . Dešinėje galimas kelių kriptovaliutų pasirinkimas . . . Kainos pagal laiko diapazonus . (Laiko diapazono pasirinkimas apačioje pažymėjus norimą laikotarpį) . Execution using papermill encountered an exception here and stopped: . MaxRowsError Traceback (most recent call last) /opt/hostedtoolcache/Python/3.6.13/x64/lib/python3.6/site-packages/altair/vegalite/v4/api.py in to_dict(self, *args, **kwargs) 361 copy = self.copy(deep=False) 362 original_data = getattr(copy, &#34;data&#34;, Undefined) --&gt; 363 copy.data = _prepare_data(original_data, context) 364 365 if original_data is not Undefined: /opt/hostedtoolcache/Python/3.6.13/x64/lib/python3.6/site-packages/altair/vegalite/v4/api.py in _prepare_data(data, context) 82 # convert dataframes or objects with __geo_interface__ to dict 83 if isinstance(data, pd.DataFrame) or hasattr(data, &#34;__geo_interface__&#34;): &gt; 84 data = _pipe(data, data_transformers.get()) 85 86 # convert string input to a URLData /opt/hostedtoolcache/Python/3.6.13/x64/lib/python3.6/site-packages/toolz/functoolz.py in pipe(data, *funcs) 625 &#34;&#34;&#34; 626 for func in funcs: --&gt; 627 data = func(data) 628 return data 629 /opt/hostedtoolcache/Python/3.6.13/x64/lib/python3.6/site-packages/toolz/functoolz.py in __call__(self, *args, **kwargs) 301 def __call__(self, *args, **kwargs): 302 try: --&gt; 303 return self._partial(*args, **kwargs) 304 except TypeError as exc: 305 if self._should_curry(args, kwargs, exc): /opt/hostedtoolcache/Python/3.6.13/x64/lib/python3.6/site-packages/altair/vegalite/data.py in default_data_transformer(data, max_rows) 17 @curried.curry 18 def default_data_transformer(data, max_rows=5000): &gt; 19 return curried.pipe(data, limit_rows(max_rows=max_rows), to_values) 20 21 /opt/hostedtoolcache/Python/3.6.13/x64/lib/python3.6/site-packages/toolz/functoolz.py in pipe(data, *funcs) 625 &#34;&#34;&#34; 626 for func in funcs: --&gt; 627 data = func(data) 628 return data 629 /opt/hostedtoolcache/Python/3.6.13/x64/lib/python3.6/site-packages/toolz/functoolz.py in __call__(self, *args, **kwargs) 301 def __call__(self, *args, **kwargs): 302 try: --&gt; 303 return self._partial(*args, **kwargs) 304 except TypeError as exc: 305 if self._should_curry(args, kwargs, exc): /opt/hostedtoolcache/Python/3.6.13/x64/lib/python3.6/site-packages/altair/utils/data.py in limit_rows(data, max_rows) 82 &#34;than the maximum allowed ({}). &#34; 83 &#34;For information on how to plot larger datasets &#34; &gt; 84 &#34;in Altair, see the documentation&#34;.format(max_rows) 85 ) 86 return data MaxRowsError: The number of rows in your dataset is greater than the maximum allowed (5000). For information on how to plot larger datasets in Altair, see the documentation . alt.VConcatChart(...) .",
+            "url": "https://dominykas-tautkus.github.io/corr-app/dominykas%20tautkus/2021/07/14/App-markets.html",
+            "relUrl": "/dominykas%20tautkus/2021/07/14/App-markets.html",
+            "date": " • Jul 14, 2021"
+        }
+        
+    
+  
+    
+        ,"post2": {
+            "title": "Koreliacija COVID-19 pandemijos metu",
+            "content": "&#352;ios dienos kriptovaliut&#371; ir pandemijos naujienos . Data shows Polygon (MATIC) has reversed PancakeSwap’s (CAKE) rise. Data from market data analysis tool Messari shows that Uniswap is winning the decentralized exchanges (DEXes) battle against PancakeSwap. The post Data shows Polygon (MATIC) has reversed PancakeSwap&#8217;s (CAKE) rise appeared first on CryptoSlate. ... | Skaityti daugiau | . Young, unvaccinated people are being hospitalized with Covid-19 as delta variant spreads, officials warn. Young, unvaccinated people have been hospitalized with Covid-19 at concerning rates, health officials across the country have said. ... | Skaityti daugiau | . Kain&#371; kaita pandemijos metu . Koreliacija pandemijos metu . Koreliacijos koeficiento (Spirmano r) matrica. . currency ETH BTC XAU SP500 . currency . ETH 1.000000 | 0.890597 | 0.206987 | 0.853387 | . BTC 0.890597 | 1.000000 | 0.140554 | 0.828092 | . XAU 0.206987 | 0.140554 | 1.000000 | 0.390982 | . SP500 0.853387 | 0.828092 | 0.390982 | 1.000000 | .",
+            "url": "https://dominykas-tautkus.github.io/corr-app/dominykas%20tautkus/2021/07/14/App-covid-19.html",
+            "relUrl": "/dominykas%20tautkus/2021/07/14/App-covid-19.html",
+            "date": " • Jul 14, 2021"
+        }
+        
+    
+  
+    
+        ,"post3": {
+            "title": "Autokoreliacija",
+            "content": "ETH autokoreliacija . BTC autokoreliacija . TRX autokoreliacija . EOS autokoreliacija .",
+            "url": "https://dominykas-tautkus.github.io/corr-app/dominykas%20tautkus/2021/07/14/App-autocorrelation.html",
+            "relUrl": "/dominykas%20tautkus/2021/07/14/App-autocorrelation.html",
+            "date": " • Jul 14, 2021"
+        }
+        
+    
+  
+    
+        ,"post4": {
+            "title": "Sklaidos diagramos",
+            "content": "Sklaidos diagrama su BTC . . .",
+            "url": "https://dominykas-tautkus.github.io/corr-app/dominykas%20tautkus/2021/07/14/App-Scatter_charts.html",
+            "relUrl": "/dominykas%20tautkus/2021/07/14/App-Scatter_charts.html",
+            "date": " • Jul 14, 2021"
+        }
+        
+    
+  
+    
+        ,"post5": {
+            "title": "Kainų istorija",
+            "content": "Kainų istorija. . Mąstelio keitimas su pelės ratuku, kriptovaliutų pasirinkimas dešinėje (&quot;shift&quot; norint pasirinkti kelias). . Kainos per paskutines 7 dienas . currency ADA BTC EOS ETH LSK NEO SP500 TRX XAU XRP . date . 2021-07-06 1.418 | 34237.66 | 3.881 | 2322.63 | 2.645 | 36.94 | 4343.540039 | 0.06499 | 1793.500000 | 0.6652 | . 2021-07-07 1.403 | 33880.79 | 3.823 | 2317.12 | 2.716 | 37.00 | 4358.129883 | 0.06431 | 1801.500000 | 0.6520 | . 2021-07-08 1.329 | 32874.01 | 3.598 | 2114.51 | 2.404 | 34.02 | 4320.819824 | 0.06113 | 1799.599976 | 0.6229 | . 2021-07-09 1.350 | 33804.20 | 4.215 | 2145.67 | 2.521 | 34.65 | 4369.549805 | 0.06236 | 1810.000000 | 0.6368 | . 2021-07-12 1.314 | 33088.51 | 4.191 | 2032.88 | 2.710 | 33.75 | 4384.629883 | 0.06007 | 1805.500000 | 0.6296 | . 2021-07-13 1.265 | 32737.47 | 3.888 | 1940.61 | 2.591 | 33.49 | 4369.209961 | 0.05927 | 1809.400024 | 0.6195 | . 2021-07-14 1.263 | 32820.50 | 3.798 | 1994.22 | 2.533 | 32.85 | 4374.299805 | 0.05984 | 1824.300049 | 0.6202 | . Normalizuota kain&#371; istorija . (Dešinėje galimas kelių kriptovaliutų pasirinkimas) . . . Normalizuota kriptovaliut&#371; kain&#371; istorija pagal laikotarp&#303; . . .",
+            "url": "https://dominykas-tautkus.github.io/corr-app/jupyter/2021/07/14/App-Price_history_charts.html",
+            "relUrl": "/jupyter/2021/07/14/App-Price_history_charts.html",
+            "date": " • Jul 14, 2021"
+        }
+        
+    
+  
+    
+        ,"post6": {
+            "title": "Koreliacijų matrica",
+            "content": "I&#353;pl&#279;stin&#279; koreliacij&#371; matrica. .",
+            "url": "https://dominykas-tautkus.github.io/corr-app/dominykas%20tautkus/2021/07/14/App-Correlation_charts.html",
+            "relUrl": "/dominykas%20tautkus/2021/07/14/App-Correlation_charts.html",
+            "date": " • Jul 14, 2021"
+        }
+        
+    
+  
+
+  
+  
+
+  
+      ,"page1": {
+          "title": "About Me",
+          "content": "This is where you put the contents of your About page. Like all your pages, it’s in Markdown format. . This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
+          "url": "https://dominykas-tautkus.github.io/corr-app/about/",
+          "relUrl": "/about/",
+          "date": ""
+      }
+      
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+}
